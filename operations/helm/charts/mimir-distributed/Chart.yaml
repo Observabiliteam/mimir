@@ -22,3 +22,8 @@ dependencies:
     repository: https://grafana.github.io/helm-charts
     version: 0.16.0
     condition: rollout_operator.enabled
+  - name: etcd
+    alias: etcd
+    version: 10.2.14
+    repository: https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    condition: etcd.enabled
