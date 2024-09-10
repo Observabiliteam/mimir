@@ -9,7 +9,7 @@ dependencies:
   repository: https://grafana.github.io/helm-charts
   version: 0.16.0
 - name: etcd
-  repository: https://github.com/bitnami/charts/tree/main/bitnami/etcd
+  repository: https://charts.bitnami.com/bitnami
   version: 10.2.14
 digest: sha256:399a73aea75bbbc711584c181308863fde65da18fe04bafcd4c0352d113f94c5
 generated: "2024-08-23T05:38:22.662648712Z"

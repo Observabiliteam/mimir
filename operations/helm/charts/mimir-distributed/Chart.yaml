@@ -25,5 +25,5 @@ dependencies:
   - name: etcd
     alias: etcd
     version: 10.2.14
-    repository: https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    repository: https://charts.bitnami.com/bitnami
     condition: etcd.enabled
