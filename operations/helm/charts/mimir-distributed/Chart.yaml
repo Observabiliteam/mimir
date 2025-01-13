@@ -24,6 +24,6 @@ dependencies:
     condition: rollout_operator.enabled
   - name: etcd
     alias: etcd
-    version: 10.2.14
+    version: 10.2.19
     repository: https://charts.bitnami.com/bitnami
     condition: etcd.enabled
